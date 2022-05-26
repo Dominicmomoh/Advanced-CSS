@@ -1,0 +1,19 @@
+body{
+    background-color: darkcyan;
+}
+
+img{
+    width: 150px;
+}
+
+.first{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: space-evenly;
+   align-items: center;
+   justify-items: center;
+ 
+}
+.second{
+    border: 2px solid grey;
+}
